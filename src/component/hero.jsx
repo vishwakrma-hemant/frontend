@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className=' w-full py-[100px] relative '>
         <div className='text-blue-900 max-w-[1240px] mx-auto text-center font-bold my-md md:my-[100px]'>
-        <img src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_640.jpg" alt="" className='absolute top-0 left-0 z-0 opacity-50 w-full h-full object-cover' />
+        <img src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_640.jpg" alt="" className='absolute top-0 left-0 z-[-10] opacity-65 w-full h-full object-cover' />
             <div className='text-md md:text-3xl text-black'> 
                 Vishwakarma
             </div>
@@ -20,9 +20,11 @@ const Hero = () => {
                     loop={true}
                 />
             </div>
-            <a href="_" className='z-10' target="_blank" rel="noopener noreferrer">
-            <button className='py-2 px-4 bg-green-500 rounded-full text-white text-lg hover:bg-blue-600 border border-none'>click me!</button>
-            </a>
+            <div>
+            {/* <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOyoLY6m9jBewKvi7CtTb-IfR-a-HmSCB2lW8rnuKTsJmjIkyt68QSIejjIoYEGf-g_0qRKpusw02-JZCkZX4aTaNGOLwoikewTr1MFnFz58svCvK_Lvo7AHKVU2rcJaPidu1TmcvFJh8Mvp-FNnexT9bfYKB3dF-N0WBy2mPzmqeysdaAAEn6rolb/s1600/shraddha-kapoor-saree-bollywood-actress--(7).jpg" target="_blank" rel="noopener noreferrer">
+            </a> */}
+            <button className='py-2 px-4 bg-green-800 rounded-full text-white text-lg hover:bg-blue-600 border border-none'>click me!</button>
+            </div>
         </div>
     </div>
   )

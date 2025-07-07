@@ -4,10 +4,9 @@ const About = () => {
     <div className=' max-w-[1240px] mx-auto md:grid grid-cols-3 py-10'>
 
         <div className='col-span-1 md:p-6   '>
-          <a href="_" target='_black'>
-
-            <img src='_' className=' md:h-[289px] mx-auto' alt="img"  />
-          </a>
+          {/* <a href="https://youtu.be/inEu2qQuGZ8?list=RDinEu2qQuGZ8" target='_black'>
+          </a> */}
+            <img src='/Assets/Image/sonam.jpg' className=' md:h-[289px] mx-auto' alt=""  />
         </div>
         <div className='col-span-2 md:py-4 py-10 mx-6 md:mx-0'>
             <h1 className=' text-xl md:text-3xl font-bold text-blue-500 '>About Us</h1>
